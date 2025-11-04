@@ -34,7 +34,7 @@ print(square(5))
 def multiply(*numbers):
     total = 1
     for number in numbers:
-        total *= number
+        total *= number        # less use -> total = total * number
     return total
 
 
