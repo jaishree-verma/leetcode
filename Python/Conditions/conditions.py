@@ -34,3 +34,11 @@ print(message)
 age = 30
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
+
+# or
+if 10 == "10":                          # False 
+    print("a")                          # no output
+elif "bag" > "apple" and "bag" > "cat": # True and False => False
+    print("b")                          # no output
+else: 
+    print("c")                          # hence print c
