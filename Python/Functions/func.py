@@ -1,0 +1,1 @@
+# This is defining or creating function in python using def 
