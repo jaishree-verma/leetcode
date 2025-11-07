@@ -1,5 +1,4 @@
 // 2629
-
 // Example 
 // Input: functions = [x => x + 1, x => x * x, x => 2 * x], x = 4
 // Output: 65
