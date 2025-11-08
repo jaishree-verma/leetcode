@@ -13,3 +13,13 @@
 // argumentsLength({}, null, "3"); // 3
 
 // Three values were passed to the function so it should return 3.
+
+var argumentsLength = function(...args){
+    return args.length;
+};
+
+
+
+
+
+
