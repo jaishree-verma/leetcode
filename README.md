@@ -1,9 +1,9 @@
 <h1 align="center">Python & JavaScript</h1>
 <h2 align="center">Basic Concept + Leetcode Questions</h2>
 
-# Python Basics – Complete Concepts 
+## Python Basics – Complete Concepts 
 
-## Table of Contents
+### Table of Contents
 1. [Variables & Data Types](#-1-variables--data-types)
 2. [Conditional Statements](#-2-conditional-statements)
 3. [Loops](#-3-loops)
@@ -15,8 +15,7 @@
 9. [Exception Handling](#-9-exception-handling)
 10. [Python Tricks & Shortcuts](#-10-python-tricks--shortcuts)
 
----
 
 ## JavaScript Leetcode 
-### Leetcode challenge 30 days 
-### Questions + Question Number + Solution 
+#### Leetcode challenge 30 days 
+#### Questions + Question Number + Solution 
