@@ -13,3 +13,9 @@
 // promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
 // Output: -2
 // Explanation: The two input promises resolve with the values of 10 and -12 respectively. The returned promise should resolve with a value of 10 + -12 = -2.
+
+var addTwoPromises = async function(promise1, promise2) {
+    return Promise.all([promise1, promise2])
+    .then(values => values[0] + values[1]);
+    
+};
