@@ -1,1 +1,1 @@
-Python & JavaScript Basics 
+<p align="center"> Python JavaScript Basics </p>
