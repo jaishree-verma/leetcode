@@ -48,3 +48,11 @@
 // 5th fn call is at 120ms 
 // 6th fn call is at 150ms
 // Cancelled at 165ms
+
+var cancellable = function(fn, args, t) {
+    fn(...args);
+    let timer = setInterval(() => fn(...args), t);
+    let cancelFn = () => clearInterval(timer);
+    return cancelFn;
+
+};
