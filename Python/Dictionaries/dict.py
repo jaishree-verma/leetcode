@@ -17,6 +17,3 @@ print(customer.get("age"))
 print(customer.get("age", "Nov"))
 
 
-# git add .
-# git commit -m "Basics of Python"
-# git push -u origin main
