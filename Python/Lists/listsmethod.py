@@ -5,3 +5,10 @@ print(numbers)
 # clear()-> remove all item
 # pop() -> remove last item
 # remove(value)-> remove element
+numbers = [2,2,4,6,3,4,6,1]
+uniques =[]
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
+# duplicated are removed
