@@ -7,7 +7,9 @@ def greet(first_name, last_name):   # Parameter->i/p define to a function -> fir
 
 
 # Arguments -> actual value assign to a parameter
-greet("Jaishree", "Verma")    # Aguments-> jaishree & verma
+# Aguments-> jaishree & verma and these are positional arguments
+greet("Jaishree", "Verma")
+# greet("first_name=Jaishree ", "last_name = Verma")  this is keyword arugument 
 
 # or
 
