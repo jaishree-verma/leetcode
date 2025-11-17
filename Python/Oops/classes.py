@@ -1,4 +1,6 @@
 # Classes in python
+# Think of a class like a template, and the object as the actual thing built from that template
+# Objects created from a class are instances
 # we use classes to use new types to model real concepts
 # to define we use class + class_name and perform methods inside it
 # use uppercase (P for point) called as pascal naming convention for class and rest variables or function use lowercase
@@ -40,3 +42,13 @@ print(point2.x)
 # -> classes are used to define new types
 # -> these types can have methods that can be define inside body of class
 # -> and they can have attribute anywhere
+
+# self → refers to the current object
+# Attributes → variables inside class
+# Methods → functions inside class
+# Class: House Blueprint
+# Objects: Actual houses built from that blueprint
+# Every house has
+# number of rooms (attribute)
+# paint color (attribute)
+# open_door() (method)
