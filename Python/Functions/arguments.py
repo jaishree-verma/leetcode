@@ -17,3 +17,4 @@ def sum(a, b):  # (a,b)-> Parameter
 
 
 sum(1, 2)  # call a function , (1,2)-> argument
+# basically when calling a fucntion we say arugments but when defining we say paramters
