@@ -44,3 +44,11 @@
 // The 1st call is delayed by 150ms and ran at 200ms. The inputs were (1, 2).
 // The 2nd call is cancelled by the 3rd call
 // The 3rd call is delayed by 150ms and ran at 450ms. The inputs were (5, 6).
+
+var debounce = function(fn, t = 1000) {
+    let timer;
+    return function(...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), t);
+    }
+};
