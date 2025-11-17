@@ -1,4 +1,5 @@
 # how to return a function
+# by default all function python returns none
 def square(number):
     return number * number        # this will return sqaure of that number
 
