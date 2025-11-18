@@ -26,3 +26,6 @@
 // Output: {"t": 150, "resolved": [4, 10, 16]}
 // Explanation: All the promises resolved with a value. The returned promise resolved when the last promise resolved.
 
+var promiseAll = async function(functions) {
+    return Promise.all(functions.map(fn=>fn()))
+}
